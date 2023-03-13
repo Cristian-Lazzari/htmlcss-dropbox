@@ -42,6 +42,8 @@ nav .section-nav ul{
 .button-1{
     background-color: #2361FF;
     color: white;
+    font-size: 0.8em;
+    padding: 0.5em 1em;
     border: 1px solid #2361FF;
 }
 .header-container{
@@ -76,4 +78,58 @@ nav .section-nav ul{
     justify-content: flex-start;
     align-items: center;
     gap: 1.5rem;
+}
+main{
+    margin-top: 30rem;
+}
+.restringed-container{
+    width: 60%;
+    margin-inline: auto;
+}
+.restringed-container .piano-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    font-size: 0.8em;
+}
+.fatturazione{
+    margin-top: 3rem;
+    display: flex;
+ 
+}
+.fatturazione ul{
+    padding-inline-start: 0;
+    display: flex;
+    gap: 1rem;
+}
+#long-card{
+    width: 100%;
+}
+.piano-container .card{
+    width: calc((100% - 2rem) / 3);
+    border: 2px solid #E5E5E6;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+.card .top-card{
+    border-bottom: 2px solid #E5E5E6;
+    padding: 0.9em;
+    text-align: center;
+    
+}
+.card .main-card-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+.card ul{
+    padding-inline-start: 0;
+}
+.main-card-2{
+    width: 80%;
 }
