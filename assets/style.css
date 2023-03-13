@@ -25,10 +25,11 @@ nav .section-nav{
 nav .section-nav ul{
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 
 }
 
-.section-nav .logo img{
+.section-nav ul li img{
     max-height: 2rem;
 }
 ul{
