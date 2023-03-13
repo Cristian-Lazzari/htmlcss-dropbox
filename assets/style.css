@@ -4,9 +4,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    height: 400px;
+    max-height: 550px;
     width: 100%;
     background-color: #B4D0E7;
+    padding: 10rem 0rem 0rem 0rem;
 }
 nav{
     width: 100%;
@@ -15,23 +16,64 @@ nav{
     top: 0;
     left: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
+    font-size: 0.7rem;
 }
 nav .section-nav{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+   
+}
+ul{
+    list-style: none;
 }
 nav .section-nav ul{
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-
+    align-items: center;
 }
 
 .section-nav ul li img{
     max-height: 2rem;
 }
-ul{
-    list-style: none;
+.button-1{
+    background-color: #2361FF;
+    color: white;
+    border: 1px solid #2361FF;
+}
+.header-container{
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-container h1{
+    font-size: 50px;
+}
+.header-container img{
+    max-width: 500px;
+    margin-inline: auto;
+    flex: 4 1 auto;
+    
+}
+.main-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    font-size: 0.6em;
+}
+
+.p-container{
+    flex: 1 2 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
 }
