@@ -28,6 +28,7 @@ nav .section-nav{
 }
 ul{
     list-style: none;
+    padding-inline-start: 0;
 }
 nav .section-nav ul{
     display: flex;
@@ -112,25 +113,21 @@ main{
     gap: 1rem;
 }
 .radio-b{
-    height: 1em;
-    width: 1em;
+    height: calc(1em - 2px);
+    width: calc(1em - 2px);
     border-radius: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: inline-block;
+    border: 2px solid rgb(177, 177, 177);
 }
-.radio-b-a{
-    height: 1em;
-    width: 1em;
-    border-radius: 100%;
-    background-color: rgb(176, 61, 61);
-    display: inline-block;
+
+.radio-b:active{
+    border: 3px solid #2361FF;
+    height:calc(1em - 2px);
+    width: calc(1em - 2px);
+    border-radius: 1rem;
 }
-.radio-b:hover{
-    display: none;
-}
-.radio-b:hover .radio-b-a{
-    background-color: #B4D0E7;
-}
+
 
 .long-card .main-card-1 h3{
     display: flex;
@@ -280,4 +277,55 @@ main{
     width: calc(100% / 3);
     aspect-ratio: 1;
     background-color: #B4D0E7;
+}
+.bottom-square-section{
+    display: flex;
+    padding: 3rem;
+    background-color: #B4D0E7;
+    margin-bottom: 3rem;
+}
+.qa{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+}
+.qa section{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 2px solid black;
+
+}
+.qa section .question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.qa section .question h3{
+    flex: 1 1 0;
+}
+.qa section .answer{
+    display: none;
+    margin-top: 1rem;
+}
+.question:hover .answer{
+    display: block;
+}
+.question:hover .menu-qa{
+    rotate: 180deg;
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.6rem;
+}
+footer ul li:first-child{
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
 }
