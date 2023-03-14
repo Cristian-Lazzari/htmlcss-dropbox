@@ -86,6 +86,7 @@ body{
 }
 main{
     margin-top: 5rem;
+    font-size: 0.8em;
 }
 .restringed-container{
     width: 60%;
@@ -130,7 +131,10 @@ main{
 .radio-b:hover .radio-b-a{
     background-color: #B4D0E7;
 }
-#long-card{
+
+.long-card .main-card-1 h3{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 .piano-container .card{
@@ -182,8 +186,30 @@ main{
     margin-top: 1em;
 }
 .foto-section{
+    width: 100%;
     display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.foto-section section{
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .foto-section img{
-    flex: 1 1 800px;
+    width: 60%;
+}
+.foto-section section h2{
+    margin-bottom: 1rem;
+}
+.feature{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
