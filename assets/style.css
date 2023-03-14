@@ -240,3 +240,44 @@ main{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+.square-section{
+    width: 100%;
+    display: flex;
+}
+.square-section .left-right-square{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.square-section .left-right-square .square{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    background-color: violet;
+    
+    
+}
+.square svg{
+    width: 60%;
+    fill: white;
+}
+.b{
+    background-color: red;
+
+}
+.c{
+    background-color: green;
+}
+.d{
+    background-color: #2361FF;
+}
+.square-center{
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+    background-color: #B4D0E7;
+}
