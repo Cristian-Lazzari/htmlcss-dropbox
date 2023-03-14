@@ -4,7 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    max-height: 550px;
+    
     width: 100%;
     background-color: #B4D0E7;
     padding: 10rem 0rem 0rem 0rem;
@@ -70,7 +70,9 @@ nav .section-nav ul{
     margin-top: 2rem;
     font-size: 0.6em;
 }
-
+.main-header img{
+    margin-bottom: -30px;
+}
 .p-container{
     flex: 1 2 50px;
     display: flex;
@@ -79,8 +81,11 @@ nav .section-nav ul{
     align-items: center;
     gap: 1.5rem;
 }
+body{
+    margin-top: 3rem;
+}
 main{
-    margin-top: 30rem;
+    margin-top: 5rem;
 }
 .restringed-container{
     width: 60%;
@@ -93,6 +98,7 @@ main{
     gap: 1rem;
     margin-top: 2rem;
     font-size: 0.8em;
+    margin-bottom: 5rem;
 }
 .fatturazione{
     margin-top: 3rem;
@@ -104,6 +110,26 @@ main{
     display: flex;
     gap: 1rem;
 }
+.radio-b{
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    background-color: black;
+    display: inline-block;
+}
+.radio-b-a{
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    background-color: rgb(176, 61, 61);
+    display: inline-block;
+}
+.radio-b:hover{
+    display: none;
+}
+.radio-b:hover .radio-b-a{
+    background-color: #B4D0E7;
+}
 #long-card{
     width: 100%;
 }
@@ -114,6 +140,7 @@ main{
     display: flex;
     flex-direction: column;
 
+
 }
 .card .top-card{
     border-bottom: 2px solid #E5E5E6;
@@ -121,15 +148,42 @@ main{
     text-align: center;
     
 }
+.card ul li{
+    display: flex;
+    gap: 0.5em;
+}
 .card .main-card-1{
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding: 1em;
+
 }
 .card ul{
     padding-inline-start: 0;
 }
+.card ul li{
+    margin-top: 1em;
+}
+.clear-bar{
+    height: 1rem;
+    width: 20%;
+    border-bottom: 2px solid#E5E5E6;
+}
 .main-card-2{
     width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1em;
+}
+.solution{
+    margin-top: 1em;
+}
+.foto-section{
+    display: flex;
+}
+.foto-section img{
+    flex: 1 1 800px;
 }
