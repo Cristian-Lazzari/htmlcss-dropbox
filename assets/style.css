@@ -207,9 +207,36 @@ main{
     margin-bottom: 1rem;
 }
 .feature{
+    margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.feature-card-container{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    
+    width: calc((100% - 4rem) / 3);
+}
+
+.feature-card img{
+    width: 100%;
+}   
+.crediti{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
