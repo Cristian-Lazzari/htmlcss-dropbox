@@ -1,0 +1,13 @@
+.radio-b:active{
+    border: 3px solid #2361FF;
+    height:calc(1em - 2px);
+    width: calc(1em - 2px);
+    border-radius: 1rem;
+}
+.question:hover .answer{
+    display: block;
+}
+.question:hover .menu-qa{
+    rotate: 180deg;
+   
+}

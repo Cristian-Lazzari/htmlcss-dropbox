@@ -121,12 +121,7 @@ main{
     border: 2px solid rgb(177, 177, 177);
 }
 
-.radio-b:active{
-    border: 3px solid #2361FF;
-    height:calc(1em - 2px);
-    width: calc(1em - 2px);
-    border-radius: 1rem;
-}
+
 
 
 .long-card .main-card-1 h3{
@@ -280,9 +275,11 @@ main{
 }
 .bottom-square-section{
     display: flex;
-    padding: 3rem;
+    padding: 3rem 20%;
     background-color: #B4D0E7;
     margin-bottom: 3rem;
+    justify-content: space-between;
+    
 }
 .qa{
     display: flex;
@@ -309,23 +306,32 @@ main{
     display: none;
     margin-top: 1rem;
 }
-.question:hover .answer{
-    display: block;
-}
-.question:hover .menu-qa{
-    rotate: 180deg;
-   
-}
+
 footer{
     background-color: black;
     color: white;
-    padding: 2rem;
+    padding: 1em 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 0.6rem;
 }
 footer ul li:first-child{
     font-size: 1.2em;
     padding-bottom: 0.5em;
+}
+footer ul:first-child{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+.bottom-footer{
+    background-color: black;
+    padding-left: 2rem;
+    color: white;
+    
+}
+.bottom-footer .lang{
+    font-size: 0.6rem;
+    display: flex;
+    gap: 0.6em;
 }
