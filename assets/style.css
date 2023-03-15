@@ -3,6 +3,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h2{
+    font-size: 20px;
+}
 header{
     
     width: 100%;
@@ -48,7 +51,7 @@ nav .section-nav ul{
     border: 1px solid #2361FF;
 }
 .header-container{
-    width: 70%;
+    width: 65%;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -69,7 +72,7 @@ nav .section-nav ul{
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 2rem;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 .main-header img{
     margin-bottom: -30px;
@@ -195,7 +198,7 @@ main{
 .foto-section img{
     width: 60%;
 }
-.foto-section section h2{
+.foto-section section h3{
     margin-bottom: 1rem;
 }
 .feature{
@@ -275,11 +278,14 @@ main{
 }
 .bottom-square-section{
     display: flex;
-    padding: 3rem 20%;
+    padding: 15vh 20%;
     background-color: #B4D0E7;
     margin-bottom: 3rem;
     justify-content: space-between;
     
+}
+.bottom-square-section h2{
+    width: 40%;
 }
 .qa{
     display: flex;
@@ -291,7 +297,7 @@ main{
 .qa section{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
 
 }
 .qa section .question{
@@ -306,7 +312,9 @@ main{
     display: none;
     margin-top: 1rem;
 }
-
+.last-q{
+    border-bottom: 1px solid black;
+}
 footer{
     background-color: black;
     color: white;
