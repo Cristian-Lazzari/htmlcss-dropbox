@@ -116,8 +116,8 @@ main{
     gap: 1rem;
 }
 .radio-b{
-    height: calc(1em - 2px);
-    width: calc(1em - 2px);
+    height: calc(1em);
+    width: calc(1em );
     border-radius: 100%;
     background-color: rgb(255, 255, 255);
     display: inline-block;
@@ -212,7 +212,8 @@ main{
 .feature-card-container{
     margin-top: 1.5rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -252,29 +253,53 @@ main{
     justify-content: center;
     align-items: center;
 }
-.a{
-    background-color: violet;
-    
-    
-}
+
 .square svg{
     width: 60%;
     fill: white;
 }
+.square img{
+    width: 60%;
+    filter: invert(100);
+}
+.a{
+    background-color: #A2D39B;   
+}
 .b{
-    background-color: red;
+    background-color: #61092B;
 
 }
 .c{
-    background-color: green;
+    background-color: #2993CE ;
 }
 .d{
-    background-color: #2361FF;
+    background-color: #F8261C ;
+}
+.e{
+    background-color: #D51F1F;
+}
+.f{
+    background-color: #B4D0E7;
+}
+.g{
+    background-color: #0C2481;
+}
+.h{
+    background-color: #FCD830;
 }
 .square-center{
     width: calc(100% / 3);
     aspect-ratio: 1;
-    background-color: #B4D0E7;
+    background-color: #F5F5F5;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+.square-center img{
+    width: 60%;
 }
 .bottom-square-section{
     display: flex;
@@ -290,13 +315,15 @@ main{
 .qa{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     margin-bottom: 2rem;
 
 }
+.qa h2{
+    margin-bottom: 2rem;
+}
 .qa section{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border-top: 1px solid black;
 
 }

@@ -1,13 +1,26 @@
 .radio-b:active{
     border: 3px solid #2361FF;
-    height:calc(1em - 2px);
-    width: calc(1em - 2px);
+    height:calc(1em - 1px);
+    width: calc(1em - 1px);
     border-radius: 1rem;
 }
-.question:hover .answer{
+.qa section:hover .answer{
     display: block;
 }
-.question:hover .menu-qa{
+.qa section:hover .menu-qa{
     rotate: 180deg;
    
+}
+.sotto-menu{
+ width: 100%;
+ margin-top: 25px;
+ position: absolute;
+ padding-top: .5rem;
+ background-color: #2361FF;
+ color: white;
+ opacity: 0;
+
+}
+.section-nav ul li:hover .sotto-menu{
+    opacity: 1;
 }
